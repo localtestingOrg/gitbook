@@ -55,3 +55,4 @@ The platform [legacy.gitbook.com](https://legacy.gitbook.com/) is like an "Herok
 ## Licensing
 
 GitBook is licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) for the full license text.
+
