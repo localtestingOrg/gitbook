@@ -7,9 +7,11 @@ preMerge:
   pattern:
     - "./lib/**/*/__tests__/*.js"
 preRun:
-  - npm i
-  - npm install svgexport -g --unsafe-perm=true
+  command:
+    - npm i
+    - npm install svgexport -g --unsafe-perm=true
 postRun:
-  - node --version
+  command:
+    - node --version
 configFile: mocha.opts
 version: 2.1
